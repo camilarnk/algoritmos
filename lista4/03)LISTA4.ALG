@@ -9,9 +9,9 @@ Inicio
     escreva("Digite o segundo numero: ")
     leia(val2)
     se (val1 > val2) entao
-       escreval(val1," é o maior numero")
+       escreval(val1," Ã© o maior numero")
     senao
-       escreval(val2," é o maior numero")
+       escreval(val2," Ã© o maior numero")
     fimse
     
 
