@@ -16,16 +16,16 @@ Inicio
     se (idade <= 35) entao
     salnovo <- sal * 0.12
     sal <- sal + salnovo
-       escreval("Olá ",nome,"! Seu novo salário é de",sal)
+       escreval("OlÃ¡ ",nome,"! Seu novo salÃ¡rio Ã© de",sal)
     senao
        se (idade >= 36) e (idade <= 50) entao
           salnovo <- sal * 0.145
           sal <- sal + salnovo
-             escreval("Olá ",nome,"! Seu novo salário é de",sal)
+             escreval("OlÃ¡ ",nome,"! Seu novo salÃ¡rio Ã© de",sal)
        senao
           salnovo <- sal * 0.17
           sal <- sal + salnovo
-             escreval("Olá ",nome,"! Seu novo salário é de",sal)
+             escreval("OlÃ¡ ",nome,"! Seu novo salÃ¡rio Ã© de",sal)
        fimse
     fimse
 
