@@ -9,11 +9,13 @@ Inicio
      escreva("Digite o segundo nome: ")
      leia(nome2)
      se (nome1 < nome2) entao
-         escreval(nome1," é o primeiro nome em ordem alfabética")
-     senao se (nome2 < nome1) entao
-         escreval(nome2," é o primeiro nome em ordem alfabética")
+         escreval(nome1," Ã© o primeiro nome em ordem alfabÃ©tica")
      senao
-         escreval("Os nomes são iguais")
+         se (nome2 < nome1) entao
+             escreval(nome2," Ã© o primeiro nome em ordem alfabÃ©tica")
+     senao
+         escreval("Os nomes sÃ£o iguais")
+         fimse
      fimse
 
 Fimalgoritmo
