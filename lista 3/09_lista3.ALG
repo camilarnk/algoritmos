@@ -5,7 +5,7 @@ Var
 
 Inicio
     para num de 5 ate 50 faca
-        se (num % 2 = 0) entao
+        se (num % 2 = 1) entao
             escreva(num)
         fimse
     fimpara
