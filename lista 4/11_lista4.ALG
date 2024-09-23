@@ -4,25 +4,13 @@ Var
     ano: inteiro
 
 Inicio
-    escreva("Digite um ano qualquer no formato de 4 dÌgitos: ")
+    escreva("Digite um ano qualquer no formato de 4 d√≠gitos: ")
     leia(ano)
     se (ano mod 4 = 0) e (ano mod 100 <> 0) ou (ano mod 400 = 0) entao
-        escreval(ano," È bissexto")
+        escreval(ano," √© bissexto")
     senao
-        escreval(ano," n„o È bissexto")
+        escreval(ano," n√£o √© bissexto")
     fimse
     
 
 Fimalgoritmo
-
-// 1: È divisivel por 4?
-// se sim: passo 2
-// se nao: nao È bissexto
-
-// 2: È divisivel por 100?
-// se sim: passo 3
-// se nao: bissexto
-
-// 3: È divisivel por 400?
-// se sim: bissexto
-// se nao: nao È bissexto
